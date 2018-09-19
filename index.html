@@ -19,6 +19,7 @@
 
         <!-- THEME STYLES -->
         <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/my.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
@@ -55,8 +56,8 @@
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About Me</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Skills</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#education">Education</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Projects</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -87,7 +88,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="promo-block-img-wrap">
-                            <img class="promo-block-img img-responsive" src="img/mockup/avatar-01.png" align="Avatar">
+                            <img class="promo-block-img img-responsive" src="img/mockup/avatar.jpg" align="Avatar">
                         </div>
                     </div>
                 </div>
@@ -102,7 +103,7 @@
             <div class="container content-lg">
                 <div class="row">
                     <div class="col-sm-5 sm-margin-b-60">
-                        <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+                        <img class="full-width img-responsive" src="img/500x700/lego.jpg" alt="Image">
                     </div>
                     <div class="col-sm-7">
                         <div class="section-seperator margin-b-50">
@@ -145,36 +146,52 @@
         </div>
         <!-- End About -->
 
-        <!-- Experience -->
-        <div id="experience">
+        <!-- education -->
+        <div id="education">
             <div class="bg-color-sky-light" data-auto-height="true">
                 <div class="container content-lg">
-                    <div class="row row-space-2 margin-b-4">
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service" data-height="height">
+                    <div class="row margin-b-20">
+                        <div class="col-sm-10">
+                           <h2>Education</h2>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row row-space-4 margin-b-2">
+
+                        <div class="col-md-6 col-sm-6 md-margin-b-2">
+                            <div class="service bg-color-base wow zoomIn service-parent" data-wow-duration=".3" data-wow-delay=".1s">
                                 <div class="service-element">
-                                    <i class="service-icon icon-mustache"></i>
+                                  <img class="service-icon" height="80px" src="img/university/hku.png" alt="Image">
                                 </div>
-                                <div class="service-info">
-                                    <h3>Illustrator</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                <div class="service-info service-title">
+                                    <h3 class="color-white">The University of Hongkong, Hongkong</h3>
+                                    <p class="color-white margin-b-5 service-subtitle">Master of Science in Computer Science, Financial Computing Stream</p>
+                                </div>
+                                <div class="service-info service-extend">
+                                    <p class="color-white margin-b-5">GPA: 3.5/4.0</p>
+                                    <p class="color-white margin-b-5">Coursework: Financial Computing, Securities Transaction Banking, Data Mining</p>
                                 </div>
                                 <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                <div class="service-element">
-                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                        <div class="col-md-6 col-sm-10 md-margin-b-2">
+                            <div class="service wow zoomIn service-parent" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element service-logo">
+                                  <img class="service-icon" height="80px" src="img/university/nku.png" alt="Image">
                                 </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Graphic Design</h3>
-                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                <div class="service-info service-title">
+                                    <h3>Nankai University, Tianjin</h3>
+                                    <p class="margin-b-5 service-subtitle">Master of Science in Computer Science, Financial Computing Stream</p>
+                                </div>
+                                <div class="service-info service-extend">
+                                    <p class="margin-b-5">GPA: 3.3/4.0</p>
+                                    <p class="margin-b-5">Coursework: Financial Computing, Securities Transaction Banking, Data Mining</p>
                                 </div>
                                 <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                        <!-- <div class="col-md-3 col-sm-6 sm-margin-b-4">
                             <div class="service" data-height="height">
                                 <div class="service-element">
                                     <i class="service-icon icon-chemistry"></i>
@@ -197,7 +214,7 @@
                                 </div>
                                 <a href="#" class="content-wrapper-link"></a>    
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <!--// end row -->
                 </div>
@@ -205,12 +222,12 @@
         </div>
         <!-- End Experience -->
 
-        <!-- Work -->
-        <div id="work">
+        <!-- project -->
+        <div id="projects">
             <div class="container content-lg">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Latest Products</h2>
+                      <h2>Projects</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
                     </div>
                 </div>

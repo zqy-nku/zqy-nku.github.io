@@ -1,0 +1,26 @@
+.service-parent:hover > .service-title{
+    position: relative; 
+    top: -80px;
+}
+
+.service-extend{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    height: 0;
+    position: relative;
+    top: -80px;
+}
+
+.service-parent:hover > .service-extend{
+    visibility: visible;
+    opacity: 1;
+}
+
+.service-title{
+}
+
+.service-subtitle{
+    font-weight:bold;
+}
+
