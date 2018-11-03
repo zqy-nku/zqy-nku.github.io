@@ -1,0 +1,10 @@
+   <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/4f.png" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Analysis of the Software and Computer Services Sectors with a New Carhart 4-Factor Model.</a> <span class="text-uppercase margin-l-20">Reaserch</span></h4>
+                        <p>Analyzed US, UK and China stock portfolios using a new 4 factor model based on Carhart(1997); estimated the new model with methods of MLE, LR test, AIC and KS test in MatLab.</p>
+                        <a class="link" href="files/4f.pdf">Paper</a>
+                    </div>
